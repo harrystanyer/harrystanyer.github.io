@@ -1,0 +1,9 @@
+body {
+  background-color: #59CD90;
+  color: #3FA7D6;
+  font-family: "Fjalla One", Arial;
+}
+h1 {
+  font-size: 3em;
+  overflow: break;
+}
