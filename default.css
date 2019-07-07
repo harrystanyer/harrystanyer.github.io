@@ -30,6 +30,18 @@ h2{
   text-align: left;
 }
 
+.script {
+  width: 80%;
+  min-width: 30%;
+  margin: 3% auto;
+  display: block;
+  padding: 2%;
+  height: 270vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 40px;
+  text-align: left;
+}
+
 /* The navigation bar */
 .navbar {
   margin: 10px;
