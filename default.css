@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #ffffff;
   background-image: url("https://wallpapercave.com/wp/wp1848524.jpg");
   background-repeat: no-repeat;
@@ -23,6 +25,8 @@ h1 {
 }
 /* The navigation bar */
 .navbar {
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   background-color: #333;
   position: fixed; /* Set the navbar to fixed position */
