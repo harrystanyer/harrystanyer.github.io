@@ -11,6 +11,12 @@ body {
 h1 {
   font-size: 3em;
   overflow: break;
+  text-align: left;
+}
+h2{
+  font-size: 3em;
+  color: #ffffff;
+  text-align: center;
 }
 .overlay {
   width: 80%;
@@ -21,17 +27,18 @@ h1 {
   height: 90vh;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 40px;
-  text-align: center;
+  text-align: left;
 }
 /* The navigation bar */
 .navbar {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   overflow: hidden;
   background-color: #333;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: 80%; /* Full width */
+  border-radius: 40px;
 }
 
 /* Links inside the navbar */
