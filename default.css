@@ -7,6 +7,8 @@ body {
   background-size: auto;
   color: #000000;
   font-family: "Fjalla One", Arial;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 h1 {
   font-size: 3em;
@@ -65,8 +67,25 @@ h2{
   display: block;
   padding: 2%;
   height: 50%;
-  background-color: rgb(189, 189, 189);
+  background-color: rgb(189, 189, 189, 0.8);
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 40px;
+}
+
+.table2{
+  width: 80%;
+  min-width: 30%;
+  margin: 3% auto;
+  display: block;
+  padding: 2%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 40px;
 }
 
 table, th, td{
