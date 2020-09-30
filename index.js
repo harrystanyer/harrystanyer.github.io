@@ -1,8 +1,25 @@
-$("button").click(function(){
-    $.get("https://api.reddit.com/r/"+$('.input1').val(), function(data){
-        $('.pictures').text('');
-        for(var i = 0; i < data.data.children.length; i++){
-            $('.pictures').prepend('<img id="theImg" width="250" height="250" src="'+data.data.children[i].data.thumbnail+'" />');
-        }
-      });
-  });
+$(document).ready(function () {
+    $("#navHide").click(function () {
+        navHide();
+    });
+});
+
+var navOpen = true;
+
+function navHide(){
+    if(navOpen){
+        navOpen = false;
+        $(".navbar").css("width","50px");
+        $("#home").html("+");
+        $("#about").html("+");
+        $("#githubButton").html("+");
+        $(".content").css("margin-left","50px");
+    }else{
+        navOpen = true;
+        $(".navbar").css("width","200px");
+        $("#home").html("Home");
+        $("#about").html("About");
+        $("#githubButton").html("Github");
+        $(".content").css("margin-left","150px");
+    }
+}
