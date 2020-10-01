@@ -23,3 +23,7 @@ function navHide(){
         $(".content").css("margin-left","150px");
     }
 }
+
+function firstWord(paragraph){
+    var a = paragraph.Split(' ');
+}
