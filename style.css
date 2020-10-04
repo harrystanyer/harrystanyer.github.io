@@ -31,8 +31,7 @@ p {
     margin-left: 15%;
     padding-left: 3%;
     text-align: left;
-    border-left: 5px solid;
-    border-color: #4f5987;
+    border-left: 5px solid #4f5987;
     font-size: 24px;
 }
 
@@ -78,6 +77,12 @@ p {
     margin-left: 150px;
     padding: 1px 16px;
     height: 1000px;
+}
+
+.graph{
+    margin-left: 15%;
+    border-left: 5px solid #4f5987;
+    width: 70%;
 }
 
 @media screen and (max-width: 700px) {
