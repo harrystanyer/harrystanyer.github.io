@@ -90,8 +90,45 @@ p {
     padding: 0;
 }
 
+#button1{
+    width: 40%;
+    height: 100px;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid #ff4763;
+    background-color: #191b2a;
+    color: #ff4763;
+    font-size: 150%;
+    border-radius: 1em;
+}
+
+#button1:hover{
+    background-color: #eeeeee;
+}
+
+#button1:focus{
+    outline: 0;
+}
+
+.quote{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+#uselessFactTarget{
+    font-size: 64px;
+}
+
 @media screen and (max-width: 700px) {
     body {
         background-color: black;
+    }
+
+    #uselessFactTarget{
+        font-size: 32px;
     }
 }
