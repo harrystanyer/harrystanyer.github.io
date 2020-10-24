@@ -1,6 +1,9 @@
 $(document).ready(function () {
-    $("#button1").click(function () {
+    $("#getQuote").click(function () {
         getUselessFact();
+    });
+    $("#getHeight").click(function () {
+        getHeight();
     });
 });
 
@@ -17,4 +20,14 @@ function getUselessFact() {
         .catch(function () {
             console.log('Not working');
         });
+}
+
+function getHeight() {
+    var reg = new RegExp('^[0-9]+$');
+    if (reg.test($("#h").val())) {
+        $("#userHeight").html("Your height is: " + $("#h").val() + "cm");
+    } else {
+        $("#userHeight").html("Not Valid input");
+    }
+
 }
